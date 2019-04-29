@@ -6,7 +6,7 @@ class FormField extends Component {
 
     const formCode = (
       <div className="field">
-        <label className={label}>Name</label>
+        <label className={label}>{label}</label>
         <div className="control">
           <input className="input" type={type} placeholder={placeholder} />
         </div>
